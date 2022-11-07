@@ -1,17 +1,6 @@
 const inquirer = require('inquirer');
-const READMEgen = require('./READMEgen');
+const {generateMarkdown} = require('./READMEgen');
 const fs = require('fs')
-
-function writeMdFile(data){
-
-  return fs.writeFile("README.md", data, (err) =>{
-    if(err) return console.error(err);
-    console.log("success!")
-  });
-}
-
-writeMdFile(READMEgen.renderTitle("READMEGENERATOR"))
-// console.log(READMEgen.renderTitle('README generator'))
 
 
 inquirer
@@ -21,32 +10,41 @@ inquirer
       message: 'What is the title of your project ?',
       name: 'title',
     },
-//     {
-//       type:'input',
-//       message: '',
-//       name: 'Description',
-//     },
-//     {
-//       type:'input',
-//       message: '',
-//       name: 'installation instructions',
-//     },
-//     {
-//         type:'input',
-//         message: '',
-//         name: 'usage information',
-//       },
-//     {
-//         type:'input',
-//         message: '',
-//         name: 'contribution guidelines',
-//       },
-//     {
-//         type:'input',
-//         message: '',
-//         name: 'test instructions',
-//       },
+    {
+      type:'input',
+      message: 'Description',
+      name: 'Description',
+    },
+    {
+      type:'input',
+      message: 'Installation instructions',
+      name: 'installationinstructions',
+    },
+    {
+        type:'input',
+        message: 'Usage information',
+        name: 'usageinformation',
+      },
+    {
+        type:'input',
+        message: 'Contribution guidelines',
+        name: 'contributionguidelines',
+      },
+    {
+        type:'input',
+        message: 'Test instructions',
+        name: 'testinstructions',
+      },
     ])
     .then((response) => {
-        console.log(response)
+      writeMdFile(generateMarkdown(response))
+        console.log(generateMarkdown(response))
     });
+
+    function writeMdFile(data){
+
+      return fs.writeFile("README.md", data, (err) =>{
+        if(err) return console.error(err);
+        console.log("success!")
+      });
+    }
