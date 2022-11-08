@@ -55,12 +55,11 @@ inquirer
     ])
     .then((response) => {
       writeMdFile(renderLicenseBadge(response) + generateMarkdown(response))
-        // console.log(generateMarkdown(response))
     });
 
     function writeMdFile(data){
 
-      return fs.writeFile("README.md", data, (err) =>{
+      return fs.writeFile("READMEsample.md", data, (err) =>{
         if(err) return console.error(err);
         console.log("README created !")
       });

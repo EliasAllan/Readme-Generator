@@ -1,23 +1,41 @@
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-# asdasd
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+https://opensource.org/licenses/MIT
+
+# Readme Generator
 
 ## Description 
-wertert
+This project will generate a professiona README for you !
 
 ## Installation  
-cvbcv
+No installation needed, just get the folder and open on VS code. You will need to install node
 
 ## Usage  
-eryer
+Use the command "node index" without quotes in the terminal to start the application
+Answer the series of prompts you're presented with
+The README file will be created in the Readme-Generator folder
 
 ## Contributing 
-awawedfwq
+Use it as you please
 
 ## Tests
-rtyrt
+No tests created for this
 
 ## License
-
+This application is covered by the MIT license
 
 ## Questions
+https://github.com/EliasAllan
 
+or
+
+E-mail me at: allanrnelias@gmail.com
+
+## Table of contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
