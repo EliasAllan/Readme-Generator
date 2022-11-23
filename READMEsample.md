@@ -2,24 +2,22 @@
 
 https://opensource.org/licenses/MIT
 
-# Readme Generator
+# Coolest Note Taker
 
 ## Description 
-This project will generate a professiona README for you !
+This application will save notes so you can keep track of tasks you need to complete
 
 ## Installation  
-No installation needed, just get the folder and open on VS code. You will need to install node
+No need to install , just visit the website
 
 ## Usage  
-Use the command "node index" without quotes in the terminal to start the application
-Answer the series of prompts you're presented with
-The README file will be created in the Readme-Generator folder
+Click Started to start, enter note title and note text then hit the save button on the top right of the screen
 
 ## Contributing 
-Use it as you please
+E-mail me if you want to contribute. My email will be in the contact me section
 
 ## Tests
-No tests created for this
+no tests were written for this application
 
 ## License
 This application is covered by the MIT license
