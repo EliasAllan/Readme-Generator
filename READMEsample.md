@@ -2,22 +2,22 @@
 
 https://opensource.org/licenses/MIT
 
-# Coolest Note Taker
+# Bookface Social Api
 
 ## Description 
-This application will save notes so you can keep track of tasks you need to complete
+This project is an API to a social media website, made using Javascript and MongoDB
 
 ## Installation  
-No need to install , just visit the website
+run npm I in the terminal , then run npx nodemon server to start it locally
 
 ## Usage  
-Click Started to start, enter note title and note text then hit the save button on the top right of the screen
+You can use this for anything you'd like
 
 ## Contributing 
-E-mail me if you want to contribute. My email will be in the contact me section
+Email me to talk about joining my projects !
 
 ## Tests
-no tests were written for this application
+No tests were made for this project
 
 ## License
 This application is covered by the MIT license

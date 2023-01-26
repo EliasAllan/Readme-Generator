@@ -63,6 +63,9 @@ ${data.Description}
 ## Installation  
 ${data.installationinstructions}
 
+## Technologies  
+${data.technologies}
+
 ## Usage  
 ${data.usageinformation}
 
