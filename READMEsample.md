@@ -2,22 +2,25 @@
 
 https://opensource.org/licenses/MIT
 
-# Bookface Social Api
+# Study Buddy
 
 ## Description 
-This project is an API to a social media website, made using Javascript and MongoDB
+This is a website where you can create and save your own study card/notes. It is designed to help students have an easy access and way to store their notes.
 
 ## Installation  
-run npm I in the terminal , then run npx nodemon server to start it locally
+run npm i, then npm run develop to start.
+
+## Technologies  
+Javascript, React, MongoDB, Express, Node, Heroku
 
 ## Usage  
-You can use this for anything you'd like
+Use this software freely, it is designed for students !
 
 ## Contributing 
-Email me to talk about joining my projects !
+Email or contact one of the creators on GitHub to discuss collaboration !
 
 ## Tests
-No tests were made for this project
+No tests were designed for this app
 
 ## License
 This application is covered by the MIT license
